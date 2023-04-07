@@ -1,0 +1,26 @@
+* {
+    /* box-sizing: content-box; */
+
+    /*
+Total width: 345px + (2 * 12px) + (2 * 10 px) = 389px
+Total height: 75px + (2 * 12px) + ( 2 * 0px ) = 119 px
+Content box widht: 345px
+Content box height: 75px
+ */
+
+    box-sizing: border-box;
+    /*
+Total widht:345px
+Total height:75 px
+Content box width:345px - (2 * 10px) - (2 * 12px) = 301px
+Content box height: 75px - ( 2* 0px) - (2 * 12px) = 51px
+    */
+}
+
+.rectangle {
+    width: 345px;
+    height: 75px;
+    background-color: lightblue;
+    border: 12px solid black;
+    padding: 0 10px 0 10px;
+}

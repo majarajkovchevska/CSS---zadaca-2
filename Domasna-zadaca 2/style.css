@@ -1,0 +1,97 @@
+body {
+    background-image: url(Images/neon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(242, 153, 183);
+
+}
+
+.login-container {
+    background-color: rgba(66, 17, 123, 0.621);
+    height: 500px;
+    width: 350px;
+    margin: 50px auto;
+    padding: 23px;
+    border-radius: 15px;
+
+
+
+
+}
+
+input {
+    margin-bottom: 5px;
+    border-radius: 3px;
+    height: 25px;
+
+}
+
+::placeholder {
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#Name,
+#Lastname {
+    border-radius: 20px;
+    background-color: rgb(237, 200, 233);
+}
+
+#Emailholder,
+#Companynameholder,
+#Phoneholder,
+#textholder {
+    width: 336px;
+    border-radius: 20px;
+    background-color: rgb(237, 200, 233);
+
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+#register_button {
+    margin: 50px auto;
+    display: flex;
+
+    width: 120px;
+    text-align: center;
+    border: 3px solid grey;
+    background-color: rgb(196, 147, 196);
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+
+
+}
+
+#register_button:hover {
+    font-size: 17px;
+    background-color: rgb(179, 135, 150);
+    color: white;
+
+}
+
+#check-box {
+    width: 18px;
+    height: 18px;
+
+
+
+}
